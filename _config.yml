@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: charmingsong
+subtitle: 'blog'
+description: 'charmingsong blog'
+keywords: charmingsong, blog, web
+author: hxs
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.websong.xin
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing index.html from permalinks
@@ -44,8 +44,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
 
@@ -59,7 +59,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: charmingsong
 category_map:
 tag_map:
 
@@ -89,6 +89,14 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+
+
+prism_plugin:
+  # docs: https://github.com/ele828/hexo-prism-plugin
+  mode: 'preprocess'    # realtime/preprocess
+#  theme: 'default'
+#  line_number: false    # default false
+  
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-Mic_Theme
 
@@ -96,3 +104,5 @@ theme: hexo-theme-Mic_Theme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+
