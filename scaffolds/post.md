@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 thumbnail:
-categories: 
+categories:
 - web
 tags:
 - web

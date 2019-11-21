@@ -15,7 +15,7 @@ Intro:
 
 Nav:
   Home_name: 主页
-  is_use_categories: false
+  is_use_categories: true
   categories_name: 分类
   is_use_archives: false
   archives_name: 归档
@@ -32,8 +32,8 @@ Nav:
   #            link: "/group/"
   #        图库 :
   #            link: "/gallery/"
-  #        标签:
-  #            link: "/tag/"
+          标签:
+              link: "/tag/"
   #自定义标签名
   #   link：“路径”
 
