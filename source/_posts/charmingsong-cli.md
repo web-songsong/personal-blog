@@ -1,5 +1,5 @@
 ---
-title: 个人脚手架搭建
+title: 个人脚手架设计搭建
 thumbnail: https://ws1.sinaimg.cn/large/8449ed5dly1ga23grlzdmj20p00dwgm0.jpg
 categories:
   - node
