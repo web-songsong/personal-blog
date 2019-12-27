@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<meta name="referrer" content="no-referrer" />
 	<link rel="bookmark"  type="image/x-icon"  href="<%- theme.head.favicon %>"/>
 	<link rel="shortcut icon" href="<%- theme.head.favicon %>">
 	<% if(page.layout === 'gallery') { %>
@@ -14,7 +15,7 @@
     <% if(page.layout === 'gallery') { %>
         <!-- Single Gallery Page -->
         <%- partial('_widget/page-gallery', {}, {cache: true}) %>
-        
+
     <% } else { %>
 		<%- body %>
  	<% } %>
