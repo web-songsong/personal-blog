@@ -30,7 +30,8 @@
         <%- partial('_partial/nav' , {}, {cache: true}) %>
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url(<%= page.thumbnail %>);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+            <div class ="post_page_title_img" style="height: 25rem; overflow: hidden" >
+                <img src="<%= page.thumbnail %>" alt="<%= page.title %>"  referrerpolicy="no-referrer" style=" width: 100%;"/>
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 ><%= page.title %></h2></a>
             </div>
             <!-- Post -->

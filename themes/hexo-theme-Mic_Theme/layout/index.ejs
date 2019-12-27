@@ -26,7 +26,8 @@
                 <div class="6u 12u(narrower)">
                     <section class="link_box special">
                        <a href="<%- url_for(post.path) %>">
-                        <div class="page_title" style="background-image: url(<%= post.thumbnail %>);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                        <div class="page_title" style="overflow: hidden">
+                            <img src="<%= post.thumbnail %>" alt="<%= post.title %>"  referrerpolicy="no-referrer" style=" width: 100%"/>
                             <!--标题-->
                             <h2 class="page_title_text"> <%= post.title %> </h2>
                             <!--段落-->
